@@ -1,0 +1,164 @@
+body{
+    background-color: #faf0e6	;
+}
+
+header{
+    margin-top: -1%;
+    margin-left: -0.7%;
+    margin-right: -0.7%;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    margin-top: -1rem;
+    margin-left: -0.7%;
+    margin-right: -0.7%;
+}
+
+header > img{
+    display:block;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 10%;
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gold;
+}
+
+#pro{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#promo{
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(rgba(0,0,0,0.094), rgba(0,0,0,0.194)), url(ring.webp)no-repeat center/ cover;
+    color: black;
+}
+
+#promo-img{
+    width: 94%;
+    height: 40%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+#promo-discription > p{
+    font-size: 1.25rem;
+    font-style: bold;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: center;
+}
+
+section {
+    display: flex;
+}
+
+article {
+        flex: 1;
+        padding: 15px;
+}
+
+#sub{
+    padding-bottom: 5%;
+}
+
+#sub article{
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 1em;
+}
+
+#sub article:hover{
+    box-sizing: border-box;
+    background-color: lightgray;
+    border-bottom: #ffd700 solid 2px;
+    border-top: #ffd700 solid 2px;
+    border-radius: 8px;
+    padding: 0.5em;
+    margin: 0.1em;
+}
+
+#sub article .shop img{
+    height: 350px;
+    border-radius: 8px;
+   text-decoration: none;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10%;
+    margin-right: -0.7%;
+    margin-left: -0.7%;
+}
+
+
+footer div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex: 1;
+}
